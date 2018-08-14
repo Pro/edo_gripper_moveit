@@ -1,0 +1,15 @@
+controller_list:
+  - name: fake_edo_controller
+    joints:
+      - edo_joint_1
+      - edo_joint_2
+      - edo_joint_3
+      - edo_joint_4
+      - edo_joint_5
+      - edo_joint_6
+  - name: fake_edo_gripper_controller
+    joints:
+      - edo_gripper_left_base_joint
+      - edo_gripper_left_finger_joint
+      - edo_gripper_right_base_joint
+      - edo_gripper_right_finger_joint

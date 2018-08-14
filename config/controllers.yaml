@@ -1,0 +1,12 @@
+controller_list:
+  - name: ""
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - edo_joint_1
+      - edo_joint_2
+      - edo_joint_3
+      - edo_joint_4
+      - edo_joint_5
+      - edo_joint_6
