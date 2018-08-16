@@ -44,6 +44,8 @@
     <disable_collisions link1="edo_base_spacer_link" link2="edo_link_1" reason="Never" />
     <disable_collisions link1="edo_base_spacer_link" link2="edo_link_2" reason="Never" />
     <disable_collisions link1="edo_base_spacer_link" link2="edo_link_3" reason="Never" />
+    <disable_collisions link1="edo_gripper_left_base_link" link2="edo_gripper_right_base_link" reason="Never" />
+    <disable_collisions link1="edo_gripper_left_base_link" link2="edo_gripper_right_finger_link" reason="Never" />
     <disable_collisions link1="edo_gripper_left_base_link" link2="edo_gripper_left_finger_link" reason="Adjacent" />
     <disable_collisions link1="edo_gripper_left_base_link" link2="edo_gripper_link" reason="Adjacent" />
     <disable_collisions link1="edo_gripper_left_base_link" link2="edo_link_2" reason="Never" />
@@ -54,6 +56,8 @@
     <disable_collisions link1="edo_gripper_left_finger_link" link2="edo_link_2" reason="Never" />
     <disable_collisions link1="edo_gripper_left_finger_link" link2="edo_link_3" reason="Never" />
     <disable_collisions link1="edo_gripper_left_finger_link" link2="edo_link_4" reason="Never" />
+    <disable_collisions link1="edo_gripper_left_finger_link" link2="edo_gripper_right_base_link" reason="Never" />
+    <disable_collisions link1="edo_gripper_left_finger_link" link2="edo_gripper_right_finger_link" reason="Never" />
     <disable_collisions link1="edo_gripper_link" link2="edo_gripper_right_base_link" reason="Adjacent" />
     <disable_collisions link1="edo_gripper_link" link2="edo_link_2" reason="Never" />
     <disable_collisions link1="edo_gripper_link" link2="edo_link_3" reason="Never" />
