@@ -10,7 +10,7 @@
     <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="edo">
-        <chain base_link="edo_base_link" tip_link="edo_link_ee" />
+        <chain base_link="edo_base_link" tip_link="edo_gripper_link_ee" />
     </group>
     <group name="edo_gripper">
         <joint name="edo_gripper_joint" />
@@ -36,7 +36,7 @@
         <joint name="edo_gripper_right_finger_joint" value="0.1996" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="edo_gripper_eef" parent_link="edo_link_ee" group="edo_gripper" parent_group="edo" />
+    <end_effector name="edo_gripper_eef" parent_link="edo_gripper_link_ee" group="edo_gripper" parent_group="edo" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="edo_base_link" link2="edo_base_spacer_link" reason="Adjacent" />
     <disable_collisions link1="edo_base_link" link2="edo_link_1" reason="Adjacent" />
