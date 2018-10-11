@@ -4,8 +4,7 @@
     
   <!-- Remap follow_joint_trajectory -->
   <remap if="$(arg sim)" from="/follow_joint_trajectory" to="/edo/arm_controller/follow_joint_trajectory"/>
-  <remap if="$(arg sim)" from="/joint_states" to="/edo/joint_states"/>
-  
+
   <!-- Launch moveit -->
   <include file="$(find edo_gripper_moveit)/launch/move_group.launch">
     <arg name="debug" default="$(arg debug)" />
