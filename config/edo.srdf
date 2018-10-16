@@ -38,12 +38,8 @@
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="edo_gripper_eef" parent_link="edo_gripper_link_ee" group="edo_gripper" parent_group="edo" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
-    <disable_collisions link1="edo_base_link" link2="edo_base_spacer_link" reason="Adjacent" />
     <disable_collisions link1="edo_base_link" link2="edo_link_1" reason="Adjacent" />
     <disable_collisions link1="edo_base_link" link2="edo_link_2" reason="Never" />
-    <disable_collisions link1="edo_base_spacer_link" link2="edo_link_1" reason="Never" />
-    <disable_collisions link1="edo_base_spacer_link" link2="edo_link_2" reason="Never" />
-    <disable_collisions link1="edo_base_spacer_link" link2="edo_link_3" reason="Never" />
     <disable_collisions link1="edo_gripper_left_base_link" link2="edo_gripper_right_base_link" reason="Never" />
     <disable_collisions link1="edo_gripper_left_base_link" link2="edo_gripper_right_finger_link" reason="Never" />
     <disable_collisions link1="edo_gripper_left_base_link" link2="edo_gripper_left_finger_link" reason="Adjacent" />
